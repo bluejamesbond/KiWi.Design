@@ -2941,91 +2941,6 @@ Metric Code Size 5664</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-PowerIC">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find drivers, regulators, and amplifiers.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="78XXL">
-<description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
-<wire x1="-5.207" y1="-1.27" x2="5.207" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="14.605" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="-1.27" x2="5.207" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="11.176" x2="4.318" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="4.318" y1="11.176" x2="4.318" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="4.318" y1="12.7" x2="5.207" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="12.7" x2="5.207" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="-1.27" x2="-5.207" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="11.176" x2="-4.318" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="-4.318" y1="11.176" x2="-4.318" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="-4.318" y1="12.7" x2="-5.207" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="12.7" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="-4.572" y1="-0.635" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
-<wire x1="4.572" y1="7.62" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
-<wire x1="4.572" y1="7.62" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
-<wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
-<circle x="0" y="11.176" radius="1.8034" width="0.1524" layer="21"/>
-<circle x="0" y="11.176" radius="4.191" width="0" layer="42"/>
-<circle x="0" y="11.176" radius="4.191" width="0" layer="43"/>
-<pad name="IN" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="GND" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="OUT" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<text x="-3.81" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.937" y="2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-4.445" y="7.874" size="0.9906" layer="21" ratio="10">A15,2mm</text>
-<text x="-0.508" y="0" size="1.27" layer="51" ratio="10">-</text>
-<text x="-3.048" y="0" size="1.27" layer="51" ratio="10">I</text>
-<text x="2.032" y="0" size="1.27" layer="51" ratio="10">O</text>
-<rectangle x1="1.905" y1="-2.159" x2="3.175" y2="-1.27" layer="21"/>
-<rectangle x1="1.905" y1="-3.81" x2="3.175" y2="-2.159" layer="51"/>
-<rectangle x1="-0.635" y1="-2.159" x2="0.635" y2="-1.27" layer="21"/>
-<rectangle x1="-3.175" y1="-2.159" x2="-1.905" y2="-1.27" layer="21"/>
-<rectangle x1="-0.635" y1="-3.81" x2="0.635" y2="-2.159" layer="51"/>
-<rectangle x1="-3.175" y1="-3.81" x2="-1.905" y2="-2.159" layer="51"/>
-<hole x="0" y="11.176" drill="3.302"/>
-</package>
-</packages>
-<symbols>
-<symbol name="78XX">
-<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
-<text x="2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
-<text x="-4.445" y="-0.635" size="1.524" layer="95">IN</text>
-<text x="0.635" y="-0.635" size="1.524" layer="95">OUT</text>
-<pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
-<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
-<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="V_REG_LD1117VXX">
-<description>LD1117VXX voltage regulator. We carry the 3.3V version (COM-00526) in TO-220 package.</description>
-<gates>
-<gate name="G$1" symbol="78XX" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="78XXL">
-<connects>
-<connect gate="G$1" pin="GND" pad="IN"/>
-<connect gate="G$1" pin="IN" pad="OUT"/>
-<connect gate="G$1" pin="OUT" pad="GND"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
@@ -8800,6 +8715,254 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="linear">
+<description>&lt;b&gt;Linear Devices&lt;/b&gt;&lt;p&gt;
+Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="TO92">
+<description>&lt;b&gt;TO-92&lt;/b&gt;</description>
+<wire x1="-2.095" y1="-1.651" x2="-0.7869" y2="2.5484" width="0.1524" layer="21" curve="-111.097684"/>
+<wire x1="0.7869" y1="2.5484" x2="2.095" y2="-1.651" width="0.1524" layer="21" curve="-111.097684"/>
+<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="-2.254" y1="-0.254" x2="-0.286" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-2.655" y1="-0.254" x2="-2.254" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="-0.286" y1="-0.254" x2="0.286" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="2.254" y1="-0.254" x2="2.655" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="0.286" y1="-0.254" x2="2.254" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-0.7864" y1="2.5484" x2="0.7864" y2="2.5484" width="0.1524" layer="51" curve="-34.298964"/>
+<pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="0" y="1.905" drill="0.8128" shape="octagon"/>
+<pad name="3" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="2.413" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.921" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="TO220H">
+<description>&lt;b&gt;TO-220&lt;/b&gt;</description>
+<wire x1="-5.207" y1="-7.62" x2="5.207" y2="-7.62" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="8.255" x2="-5.207" y2="8.255" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="-7.62" x2="5.207" y2="4.826" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="4.826" x2="4.318" y2="4.826" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="4.826" x2="4.318" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="6.35" x2="5.207" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="6.35" x2="5.207" y2="8.255" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="-7.62" x2="-5.207" y2="4.826" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="4.826" x2="-4.318" y2="4.826" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="4.826" x2="-4.318" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="6.35" x2="-5.207" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="6.35" x2="-5.207" y2="8.255" width="0.1524" layer="21"/>
+<wire x1="-4.572" y1="-6.985" x2="4.572" y2="-6.985" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="1.27" x2="4.572" y2="-6.985" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="1.27" x2="-4.572" y2="1.27" width="0.0508" layer="21"/>
+<wire x1="-4.572" y1="-6.985" x2="-4.572" y2="1.27" width="0.0508" layer="21"/>
+<circle x="0" y="4.826" radius="1.8034" width="0.1524" layer="21"/>
+<circle x="0" y="4.826" radius="2.54" width="0" layer="43"/>
+<circle x="0" y="4.826" radius="2.54" width="0" layer="42"/>
+<pad name="1" x="-2.54" y="-10.16" drill="1.1176" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-10.16" drill="1.1176" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-10.16" drill="1.1176" shape="long" rot="R90"/>
+<text x="-5.461" y="-10.922" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="7.366" y="-11.049" size="1.778" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="2.159" y1="-11.049" x2="2.921" y2="-10.414" layer="21"/>
+<rectangle x1="-0.381" y1="-11.049" x2="0.381" y2="-10.414" layer="21"/>
+<rectangle x1="-2.921" y1="-11.049" x2="-2.159" y2="-10.414" layer="21"/>
+<rectangle x1="-3.175" y1="-10.414" x2="-1.905" y2="-7.62" layer="21"/>
+<rectangle x1="-0.635" y1="-10.414" x2="0.635" y2="-7.62" layer="21"/>
+<rectangle x1="1.905" y1="-10.414" x2="3.175" y2="-7.62" layer="21"/>
+<hole x="0" y="4.826" drill="3.302"/>
+</package>
+<package name="TO39">
+<description>&lt;b&gt;Metal Can Package&lt;/b&gt;</description>
+<wire x1="-4.0386" y1="-3.5306" x2="-3.5052" y2="-2.9972" width="0.1524" layer="21"/>
+<wire x1="-2.9718" y1="-3.5306" x2="-3.5052" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="-3.5052" y1="-4.064" x2="-4.0386" y2="-3.5306" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="4.572" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="3.8608" width="0.0508" layer="21"/>
+<pad name="1" x="0" y="-2.54" drill="0.8128" shape="octagon"/>
+<pad name="2" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="3" x="0" y="2.54" drill="0.8128" shape="octagon"/>
+<text x="-2.794" y="4.826" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.302" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="TO252">
+<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;&lt;p&gt;
+TS-003</description>
+<wire x1="3.2766" y1="3.8354" x2="3.277" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-2.159" x2="-3.277" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-2.159" x2="-3.2766" y2="3.8354" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="3.835" x2="3.2774" y2="3.8346" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="3.937" x2="-2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="4.6482" x2="-2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="-2.1082" y1="5.1054" x2="2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="2.1082" y1="5.1054" x2="2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="4.6482" x2="2.5654" y2="3.937" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="3.937" x2="-2.5654" y2="3.937" width="0.2032" layer="51"/>
+<smd name="3" x="0" y="2.5" dx="5.4" dy="6.2" layer="1"/>
+<smd name="1" x="-2.28" y="-4.8" dx="1" dy="1.6" layer="1"/>
+<smd name="2" x="2.28" y="-4.8" dx="1" dy="1.6" layer="1"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.7178" y1="-5.1562" x2="-1.8542" y2="-2.2606" layer="51"/>
+<rectangle x1="1.8542" y1="-5.1562" x2="2.7178" y2="-2.2606" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.0226" x2="0.4318" y2="-2.2606" layer="21"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-2.5654" y="3.937"/>
+<vertex x="-2.5654" y="4.6482"/>
+<vertex x="-2.1082" y="5.1054"/>
+<vertex x="2.1082" y="5.1054"/>
+<vertex x="2.5654" y="4.6482"/>
+<vertex x="2.5654" y="3.937"/>
+</polygon>
+</package>
+<package name="TO220V">
+<description>&lt;b&gt;TO 200 vertical&lt;/b&gt;</description>
+<wire x1="5.08" y1="-1.143" x2="4.953" y2="-4.064" width="0.127" layer="21"/>
+<wire x1="4.699" y1="-4.318" x2="4.953" y2="-4.064" width="0.127" layer="21"/>
+<wire x1="4.699" y1="-4.318" x2="-4.699" y2="-4.318" width="0.127" layer="21"/>
+<wire x1="-4.953" y1="-4.064" x2="-4.699" y2="-4.318" width="0.127" layer="21"/>
+<wire x1="-4.953" y1="-4.064" x2="-5.08" y2="-1.143" width="0.127" layer="21"/>
+<circle x="-4.4958" y="-3.7084" radius="0.254" width="0.127" layer="21"/>
+<pad name="1" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.175" y="-3.175" size="1.27" layer="51" ratio="10">1</text>
+<text x="-0.635" y="-3.175" size="1.27" layer="51" ratio="10">2</text>
+<text x="1.905" y="-3.175" size="1.27" layer="51" ratio="10">3</text>
+<rectangle x1="-5.334" y1="-0.762" x2="5.334" y2="0" layer="21"/>
+<rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="-0.762" layer="21"/>
+<rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="-0.762" layer="21"/>
+<rectangle x1="-3.429" y1="-1.27" x2="-1.651" y2="-0.762" layer="51"/>
+<rectangle x1="0.889" y1="-1.27" x2="1.651" y2="-0.762" layer="21"/>
+<rectangle x1="3.429" y1="-1.27" x2="5.334" y2="-0.762" layer="21"/>
+<rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
+<rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="78XX">
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-7.62" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
+<pin name="VI" x="-10.16" y="0" length="short" direction="in"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="VO" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="78*" prefix="IC">
+<description>Positive &lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;&lt;p&gt;
+Source:&lt;br&gt;
+http://cache.national.com/ds/LM/LM78L05.pdf&lt;br&gt;
+http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
+<gates>
+<gate name="A1" symbol="78XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="Z" package="TO92">
+<connects>
+<connect gate="A1" pin="GND" pad="2"/>
+<connect gate="A1" pin="VI" pad="3"/>
+<connect gate="A1" pin="VO" pad="1"/>
+</connects>
+<technologies>
+<technology name="L05"/>
+<technology name="L08"/>
+<technology name="L12"/>
+<technology name="L15"/>
+<technology name="L18"/>
+<technology name="L24"/>
+</technologies>
+</device>
+<device name="T" package="TO220H">
+<connects>
+<connect gate="A1" pin="GND" pad="2"/>
+<connect gate="A1" pin="VI" pad="1"/>
+<connect gate="A1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name="05"/>
+<technology name="06"/>
+<technology name="08"/>
+<technology name="12"/>
+<technology name="15"/>
+<technology name="18"/>
+<technology name="24"/>
+</technologies>
+</device>
+<device name="H" package="TO39">
+<connects>
+<connect gate="A1" pin="GND" pad="3"/>
+<connect gate="A1" pin="VI" pad="1"/>
+<connect gate="A1" pin="VO" pad="2"/>
+</connects>
+<technologies>
+<technology name="05"/>
+<technology name="06"/>
+<technology name="08"/>
+<technology name="12"/>
+<technology name="15"/>
+<technology name="18"/>
+<technology name="24"/>
+</technologies>
+</device>
+<device name="L" package="TO92">
+<connects>
+<connect gate="A1" pin="GND" pad="2"/>
+<connect gate="A1" pin="VI" pad="3"/>
+<connect gate="A1" pin="VO" pad="1"/>
+</connects>
+<technologies>
+<technology name="05"/>
+<technology name="06"/>
+<technology name="08"/>
+<technology name="12"/>
+<technology name="15"/>
+<technology name="18"/>
+<technology name="24"/>
+</technologies>
+</device>
+<device name="DT" package="TO252">
+<connects>
+<connect gate="A1" pin="GND" pad="3"/>
+<connect gate="A1" pin="VI" pad="1"/>
+<connect gate="A1" pin="VO" pad="2"/>
+</connects>
+<technologies>
+<technology name="05"/>
+<technology name="06"/>
+<technology name="08"/>
+<technology name="12"/>
+<technology name="15"/>
+<technology name="18"/>
+<technology name="24"/>
+</technologies>
+</device>
+<device name="TV" package="TO220V">
+<connects>
+<connect gate="A1" pin="GND" pad="2"/>
+<connect gate="A1" pin="VI" pad="1"/>
+<connect gate="A1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name="05"/>
+<technology name="12"/>
+<technology name="15"/>
+<technology name="18"/>
+<technology name="24"/>
+<technology name="6"/>
+<technology name="8"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8814,7 +8977,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="G1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="HC49US" value="16MHz"/>
 <part name="C1" library="adafruit" deviceset="C-US" device="050-025X075" value="22pF"/>
 <part name="C2" library="adafruit" deviceset="C-US" device="050-025X075" value="22pF"/>
-<part name="LM7805" library="SparkFun-PowerIC" deviceset="V_REG_LD1117VXX" device=""/>
 <part name="MOTOR" library="SparkFun-Connectors" deviceset="M04" device="JST"/>
 <part name="R1" library="resistor" deviceset="R-US_" device="0207/2V" value="220"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="0207/2V" value="220"/>
@@ -8824,6 +8986,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="XBEE" library="SparkFun-Connectors" deviceset="M05" device="JST-VERT"/>
 <part name="LOAD" library="SparkFun-Connectors" deviceset="M02" device="JST-PTH-VERT"/>
 <part name="3.3REGULATOR" library="SparkFun-Connectors" deviceset="M03" device="JST-PTH-VERT"/>
+<part name="IC1" library="linear" deviceset="78*" device="TV" technology="05"/>
 </parts>
 <sheets>
 <sheet>
@@ -8856,7 +9019,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="G1" gate="G$1" x="-2.54" y="53.34"/>
 <instance part="C1" gate="G$1" x="-12.7" y="48.26"/>
 <instance part="C2" gate="G$1" x="7.62" y="48.26"/>
-<instance part="LM7805" gate="G$1" x="-15.24" y="33.02"/>
 <instance part="MOTOR" gate="G$1" x="106.68" y="66.04" rot="R180"/>
 <instance part="R1" gate="G$1" x="35.56" y="12.7"/>
 <instance part="R2" gate="G$1" x="45.72" y="5.08"/>
@@ -8866,6 +9028,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="XBEE" gate="G$1" x="-15.24" y="76.2"/>
 <instance part="LOAD" gate="G$1" x="5.08" y="86.36"/>
 <instance part="3.3REGULATOR" gate="G$1" x="-50.165" y="47.9425"/>
+<instance part="IC1" gate="A1" x="-7.3025" y="8.5725"/>
 </instances>
 <busses>
 </busses>
@@ -8895,7 +9058,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="LM7805" gate="G$1" pin="OUT"/>
 <wire x1="-7.62" y1="33.02" x2="12.7" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="33.02" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="38.1" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
@@ -8910,6 +9072,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <pinref part="MOTOR" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="68.58" x2="99.06" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="A1" pin="VO"/>
+<wire x1="2.8575" y1="8.5725" x2="6.0325" y2="8.5725" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -9110,7 +9276,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="7.62" y1="40.64" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
 <junction x="-2.54" y="40.64"/>
 <wire x1="-27.94" y1="17.78" x2="-15.24" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="LM7805" gate="G$1" pin="GND"/>
 <wire x1="-15.24" y1="17.78" x2="-15.24" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="17.78" x2="-2.54" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="17.78" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
@@ -9131,6 +9296,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="3.3REGULATOR" gate="G$1" pin="1"/>
 <wire x1="-42.545" y1="45.4025" x2="-37.7825" y2="45.4025" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="A1" pin="GND"/>
+<wire x1="-7.3025" y1="0.9525" x2="-7.3025" y2="-2.2225" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3VCC" class="0">
 <segment>
@@ -9146,13 +9315,18 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="N$4" class="0">
 <segment>
 <pinref part="3.3REGULATOR" gate="G$1" pin="2"/>
-<pinref part="LM7805" gate="G$1" pin="IN"/>
 <wire x1="-27.94" y1="33.02" x2="-22.86" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="BATTERY" gate="G$1" pin="2"/>
 <wire x1="-27.94" y1="33.02" x2="-27.94" y2="25.4" width="0.1524" layer="91"/>
 <junction x="-27.94" y="33.02"/>
 <wire x1="-42.545" y1="47.9425" x2="-27.94" y2="47.9425" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="47.9425" x2="-27.94" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A1" pin="VI"/>
+<wire x1="-17.4625" y1="8.5725" x2="-40.005" y2="8.5725" width="0.1524" layer="91"/>
+<wire x1="-40.005" y1="8.5725" x2="-40.005" y2="32.7025" width="0.1524" layer="91"/>
+<wire x1="-40.005" y1="32.7025" x2="-29.21" y2="32.7025" width="0.1524" layer="91"/>
+<wire x1="-29.21" y1="32.7025" x2="-29.21" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-29.21" y1="33.02" x2="-27.94" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
